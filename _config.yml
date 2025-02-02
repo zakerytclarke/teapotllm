@@ -1,0 +1,77 @@
+# Site settings
+title: "My Documentation Site"
+description: "A simple documentation site powered by Slate"
+baseurl: ""  # Leave empty for root domain or specify a subpath
+url: ""  # Replace with your GitHub Pages URL
+
+# Author and site metadata
+author: "Your Name"
+email: "youremail@example.com"
+github: "https://github.com/yourusername"
+twitter: "https://twitter.com/yourusername"
+linkedin: "https://www.linkedin.com/in/yourusername/"
+
+# Navigation settings (main menu)
+navigation:
+  - text: "Home"
+    url: "/"
+  - text: "Docs"
+    url: "/docs/"
+  - text: "API"
+    url: "/api/"
+  - text: "Blog"
+    url: "/blog/"
+  - text: "About"
+    url: "/about/"
+
+# Google Analytics (optional)
+google_analytics: "UA-XXXXXXXXX-X"  # Replace with your own Google Analytics tracking ID, or leave empty if not needed
+
+# Social media links (optional)
+social:
+  - name: "GitHub"
+    url: "https://github.com/yourusername"
+    icon: "github"
+  - name: "Twitter"
+    url: "https://twitter.com/yourusername"
+    icon: "twitter"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/yourusername/"
+    icon: "linkedin"
+
+# Configuration for URL rewriting and redirects (optional)
+permalink: "/:title/"
+exclude:
+  - "README.md"  # Exclude files from being included in the build
+  - "LICENSE.md"  # Example exclusion
+
+# SEO (optional)
+seo:
+  keywords:
+    - "documentation"
+    - "slate theme"
+    - "developer docs"
+    - "API"
+  meta_description: "A simple documentation site powered by Slate. Perfect for technical documentation and API references."
+  
+# Google Fonts (optional)
+google_fonts:
+  - "Roboto"
+  - "Lora"
+
+# Theme Settings (specific to Slate)
+theme:
+  color_scheme: "light"  # Set to "dark" if you prefer a dark mode theme
+  logo: "/images/logo.png"  # Path to your logo image
+  logo_link: "/"  # Where the logo will link to (usually the homepage)
+
+# Optional: Add additional configuration for API documentation
+api_docs:
+  enabled: true
+  base_url: "/api/"
+  version: "v1"
+
+# Footer settings (optional)
+footer:
+  text: "© 2025 My Documentation Site | Powered by Slate"
+  link: "https://github.com/slatedocs/slate"  # Optional: Link to the Slate GitHub repo
