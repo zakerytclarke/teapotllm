@@ -22,7 +22,8 @@ footer.inner p {
 }
 
 footer.inner::before {
-  content: "418 I am a teapot";
+  content: "418 I'm a teapot (HTCPCP/1.0) | Contact Us | Copyright 2025";
+  color:rgb(242, 242, 242);
   display: block;
   text-align: center; /* Center the text */
   font-size: 1.2em; /* Adjust font size if needed */
