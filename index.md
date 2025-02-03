@@ -15,6 +15,20 @@ title: Home
   #forkme_banner{
     display:none;
   }
+
+footer.inner .copyright,
+footer.inner p {
+  display: none; /* Hides the original content */
+}
+
+footer.inner::before {
+  content: "418 I am a teapot";
+  display: block;
+  text-align: center; /* Center the text */
+  font-size: 1.2em; /* Adjust font size if needed */
+  font-weight: bold; /* Optional: make the text bold */
+  margin-top: 20px; /* Add margin to separate from other elements */
+}
 </style>
 
 # Teapot AI
