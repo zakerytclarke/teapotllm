@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: Teapot AI
-description: Building AI powered LLM agents, privately brewed in your browser.
+description: Building AI powered LLM agents, privately brewed in your browser.\n <a href="/blog">Blog</a>
 
 show_downloads: false
 
