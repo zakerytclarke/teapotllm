@@ -2,35 +2,7 @@
 layout: default
 title: Home
 ---
-<div style="width:35vw;text-align: right; vertical-align:middle;position:fixed;z-index:100;top:0;left:10px;padding-top:10px;padding-right:10px;">
-            <a target="_blank" style="margin-top:0px;" href="https://discord.gg/hPxGSn5dST"><img style="width:35px;vertical-align: bottom;border-radius:50%;" src="./assets/logo_discord.png"></a><a target="_blank" style="margin-top:0px;" href="https://huggingface.co/teapotai"><img style="width:35px;vertical-align: bottom;border-radius:50%;" src="./assets/logo_hf.png"></a>
-<!-- <a target="_blank"  style="margin-top:0px;overflow:hidden;"  href="https://teapotai.com/TOS"><img
-    style="width:35px;vertical-align: bottom;border-radius:50%;overflow:hidden;"
-    src="./assets/copyright.png" /></a> -->
-</div>
-                        
-<img src="./assets/logo.gif" style="min-width:100px;width:5vw;border:none;box-shadow: none;position:fixed;top:0;right:10px;z-index:1000;" alt="Teapot AI Logo">
 
-<style>
-  #forkme_banner{
-    display:none;
-  }
-
-footer.inner .copyright,
-footer.inner p {
-  display: none; /* Hides the original content */
-}
-
-footer.inner::before {
-  content: "418 I'm a teapot (HTCPCP/1.0) | Contact Us | Copyright 2025";
-  color:rgb(242, 242, 242);
-  display: block;
-  text-align: center; /* Center the text */
-  font-size: 1.2em; /* Adjust font size if needed */
-  font-weight: bold; /* Optional: make the text bold */
-  margin-top: 20px; /* Add margin to separate from other elements */
-}
-</style>
 
 # Teapot AI
 
