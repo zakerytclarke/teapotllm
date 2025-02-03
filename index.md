@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 <div style="width:35vw;text-align: right; vertical-align:middle;position:fixed;z-index:100;top:0;left:10px;padding-top:10px;padding-right:10px;">
             <a target="_blank" style="margin-top:0px;" href="https://discord.gg/hPxGSn5dST"><img style="width:35px;vertical-align: bottom;border-radius:50%;" src="./assets/logo_discord.png"></a><a target="_blank" style="margin-top:0px;" href="https://huggingface.co/teapotai"><img style="width:35px;vertical-align: bottom;border-radius:50%;" src="./assets/logo_hf.png"></a>
 <!-- <a target="_blank"  style="margin-top:0px;overflow:hidden;"  href="https://teapotai.com/TOS"><img
